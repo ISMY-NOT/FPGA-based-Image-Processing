@@ -111,7 +111,7 @@ You should set the Baud Rate to 115200 and the Parity to None, and so on just li
 
 When you have constructs the corresponding hardware and software, you can run the program as follows:
 
-<img src=".\other\operation flow.png" width = 700>
+<img src=".\other\Operation Flow.png" width = 700>
 
 # 4. Conclusion
 

@@ -5,7 +5,7 @@
  * @version: 
  * @Date: 2024-03-26 10:31:35
  * @LastEditors: ISMY
- * @LastEditTime: 2024-03-31 17:32:57
+ * @LastEditTime: 2024-04-01 10:17:35
 -->
 This work is used for image processing based on FPGA zynq7020 which consists of three main functions: 1. image grey scale, 2. image Gaussian filtering and 3. image edge detection based on sobel operator. Final implementation of face recognition and extraction of block diagrams.
 
@@ -109,12 +109,12 @@ You should set the Baud Rate to 115200 and the Parity to None, and so on just li
 
 # 3. Operation Flow
 
-When you have constructs the corresponding hardware and software, you can run the program as follows:
+When you have constructs the corresponding hardware and software, you can run the hole project as follows:
 
 <img src=".\other\Operation Flow.png" width = 700>
 
 # 4. Conclusion
 
-In this simple project, based on ZYNQ7020 of FPGA, three functions of image processing are implemented: 1. image greyscaling, 2. image Gaussian filtering, and 3. image edge detection. And Matlab is used to write the corresponding programme to implement the image processing functions. Write the program for face detection using python-opencv library to implement the function of face detection. Use XCOM V2.0.exe to achieve the function of serial communication.
+In this simple project, based on ZYNQ7020, three functions of image processing are implemented: 1. image greyscaling, 2. image Gaussian filtering, and 3. image edge detection. And Matlab is used to write the corresponding program to implement the image processing functions. Write the program for face detection using python-opencv library to implement the function of face detection. Use XCOM V2.0.exe to accept the image data from FPGA to PC.
 
 But there are still the following can be improved: 1. UART communication is slow, can be used in other high-speed communication methods; 2. For convenience, the whole picture is currently stored in the FRAM of the FPGA, you can consider storing the picture in the SD card, and then use the DDR for data retrieval, reducing the pressure of on-chip storage。
